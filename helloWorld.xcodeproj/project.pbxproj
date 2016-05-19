@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		558DDD2C1CED4FC700C67FC5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558DDD2B1CED4FC700C67FC5 /* main.swift */; };
+<<<<<<< HEAD
+<<<<<<< HEAD
+		558DDD341CED6B0D00C67FC5 /* showPrime.c in Sources */ = {isa = PBXBuildFile; fileRef = 558DDD331CED6B0D00C67FC5 /* showPrime.c */; };
+=======
+>>>>>>> 7b9a3dc... Initial Commit
+=======
+		558DDD341CED6B0D00C67FC5 /* showPrime.c in Sources */ = {isa = PBXBuildFile; fileRef = 558DDD331CED6B0D00C67FC5 /* showPrime.c */; };
+>>>>>>> 6b2c3e7... いろいろ
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,18 @@
 /* Begin PBXFileReference section */
 		558DDD281CED4FC700C67FC5 /* helloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		558DDD2B1CED4FC700C67FC5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+<<<<<<< HEAD
+		558DDD321CED6B0D00C67FC5 /* showPrime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "showPrime-Bridging-Header.h"; sourceTree = "<group>"; };
+		558DDD331CED6B0D00C67FC5 /* showPrime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = showPrime.c; sourceTree = "<group>"; };
+		558DDD351CED6B7F00C67FC5 /* showPrime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showPrime.h; sourceTree = "<group>"; };
+=======
+>>>>>>> 7b9a3dc... Initial Commit
+=======
+		558DDD321CED6B0D00C67FC5 /* showPrime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "showPrime-Bridging-Header.h"; sourceTree = "<group>"; };
+		558DDD331CED6B0D00C67FC5 /* showPrime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = showPrime.c; sourceTree = "<group>"; };
+		558DDD351CED6B7F00C67FC5 /* showPrime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showPrime.h; sourceTree = "<group>"; };
+>>>>>>> 6b2c3e7... いろいろ
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +77,18 @@
 		558DDD2A1CED4FC700C67FC5 /* helloWorld */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+<<<<<<< HEAD
+				558DDD331CED6B0D00C67FC5 /* showPrime.c */,
+				558DDD351CED6B7F00C67FC5 /* showPrime.h */,
+				558DDD321CED6B0D00C67FC5 /* showPrime-Bridging-Header.h */,
+=======
+>>>>>>> 7b9a3dc... Initial Commit
+=======
+				558DDD331CED6B0D00C67FC5 /* showPrime.c */,
+				558DDD351CED6B7F00C67FC5 /* showPrime.h */,
+				558DDD321CED6B0D00C67FC5 /* showPrime-Bridging-Header.h */,
+>>>>>>> 6b2c3e7... いろいろ
 				558DDD2B1CED4FC700C67FC5 /* main.swift */,
 			);
 			path = helloWorld;
@@ -119,6 +151,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+<<<<<<< HEAD
+				558DDD341CED6B0D00C67FC5 /* showPrime.c in Sources */,
+=======
+>>>>>>> 7b9a3dc... Initial Commit
+=======
+				558DDD341CED6B0D00C67FC5 /* showPrime.c in Sources */,
+>>>>>>> 6b2c3e7... いろいろ
 				558DDD2C1CED4FC700C67FC5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,14 +251,44 @@
 		558DDD301CED4FC700C67FC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+<<<<<<< HEAD
+<<<<<<< HEAD
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "helloWorld/helloWorld-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+=======
+				PRODUCT_NAME = "$(TARGET_NAME)";
+>>>>>>> 7b9a3dc... Initial Commit
+=======
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "helloWorld/helloWorld-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+>>>>>>> 6b2c3e7... いろいろ
 			};
 			name = Debug;
 		};
 		558DDD311CED4FC700C67FC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+<<<<<<< HEAD
+<<<<<<< HEAD
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "helloWorld/helloWorld-Bridging-Header.h";
+=======
+				PRODUCT_NAME = "$(TARGET_NAME)";
+>>>>>>> 7b9a3dc... Initial Commit
+=======
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "helloWorld/helloWorld-Bridging-Header.h";
+>>>>>>> 6b2c3e7... いろいろ
 			};
 			name = Release;
 		};
@@ -241,6 +311,14 @@
 				558DDD311CED4FC700C67FC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
+<<<<<<< HEAD
+			defaultConfigurationName = Release;
+=======
+>>>>>>> 7b9a3dc... Initial Commit
+=======
+			defaultConfigurationName = Release;
+>>>>>>> 6b2c3e7... いろいろ
 		};
 /* End XCConfigurationList section */
 	};
